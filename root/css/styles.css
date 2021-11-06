@@ -1,0 +1,120 @@
+
+
+h1{
+    text-align: center;
+    background-color: #C4C4C4;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    line-height: 29.64px;
+    padding-top: 14.13px;
+    padding-bottom: 16px;
+ }
+ h3{
+     
+     font-style: normal;
+     font-family: 'Oswald', sans-serif;
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 16.94px;
+     color: #005677 ;
+     background-color: #C4C4C4;
+     padding-top: 6px;
+     padding-bottom: 7px;
+     padding-left:12.45px
+ }
+ 
+ .personal-data{
+ 
+     font-family: 'Oswald', sans-serif;
+     font-size: 15px;
+     font-style: normal;
+     line-height: 12.7px;
+ }
+ 
+ .personal-data span{
+     font-family: 'Oswald', sans-serif;
+     font-size: 15px;
+     font-style: italic;
+     line-height: 12.7px;
+     font-weight: bold;
+ }
+ 
+ .header{
+     /*background-color: #E5E5E5;*/
+     font-family: 'Oswald', sans-serif;
+     background-image: linear-gradient(
+         rgba(170, 164, 164, 0.562), 
+         rgba(53, 50, 50, 0.747)), url(/root/img/fondoImg.jpeg);
+     /*background-size: 1536px 250px;*/
+     background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+     
+ }
+ 
+ .botonSobremi{
+ 
+     padding: 10px 10px 10px 10px;
+     border-radius: 10px;
+     background:linear-gradient(
+         rgba(81, 64, 230, 0.562), 
+         rgba(134, 130, 130, 0.747));
+     text-decoration: none;
+     border: solid 1px;
+     color: white;
+     font-weight: bold;
+ 
+ }
+ 
+ 
+ .alineacion{
+     
+     margin-left: 74px;
+     
+ }
+ .alineacionExperiencia{
+     margin-left: 35px;
+ }
+ footer{
+     background-color: #005677;
+     text-align: center;
+     color: white;
+     font-family: 'Oswald', sans-serif;
+     font-weight:bold;
+     font-size: 20px;
+     line-height: 17px;
+     padding-top: 11px;
+     padding-bottom:9px;
+    
+    
+ }
+ 
+ footer a{
+     padding-left: 10px;
+ }
+ 
+ .foto{
+ padding-top:20.91px;
+ padding-bottom: 20px;
+ }
+ 
+ .foto img{
+     width: 180px;
+     height: 200px;
+     border-radius: 50%;
+ }
+ 
+ footer a{
+     text-decoration: none;
+     color: white; 
+ }
+ 
+ .formacion-academica{
+     font-family: 'Oswald', sans-serif;
+ }
+ 
+ .ExpLaboral{
+     font-family: 'Oswald', sans-serif;
+ }
+ 
+ 

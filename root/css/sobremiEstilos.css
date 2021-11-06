@@ -1,0 +1,85 @@
+header{
+    background-image: linear-gradient(
+        rgba(102, 112, 168, 0.877), 
+        rgba(53, 50, 50, 0.747)), url(/root/img/fondoImg.jpeg);
+    text-align: center;
+    color:white;  
+    font-family:'Oswald', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+header h1{
+    padding-bottom: 15px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+   
+    
+}
+
+div.FotoPresentacion {
+    /* tamaño de tu círculo */
+    margin-top: 30px;
+    margin-left: 30px;
+    border: solid 5px #a0afb7;
+    height: 370px;
+    width: 350px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.botonCurriculum{
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #282e30;
+    border: 2px solid #858d91;
+}
+
+.container{
+    overflow: hidden;
+}
+.izquierdo{
+    margin-bottom: 20px;
+    float: left;
+}
+.derecho{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+    float: left;
+    font-size:20px ;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer{
+    background-image: linear-gradient(
+        rgba(10, 10, 19, 0.925), 
+        rgba(13, 3, 39, 0.87));
+   /* background-color: black; */
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
