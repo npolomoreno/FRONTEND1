@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.header{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ContenedorHeader-1{
+    display: flex;
+}
+
+.PizzaFront{
+    display: flex;
+    padding-left: 15px;
+    align-self: center;
+}
+
+.ContenedorHeader-2{
+    display: flex;
+    color: #F3F3F3 ;
+}
+
+
+.ImagenPizza{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.nav-bar{
+    list-style: none;
+    display: inline-flex;
+    align-self: center;
+    padding-right: 13px;
+    font-size: 20px;
+}
+
+.contenedor-padre{
+    display: flex;
+    background-color: #E5E5E5;
+   
+}
+
+.contenedorMain-1{
+    background-image: url(/img/delivery.png);
+    display: flex;
+    width: 490px;
+    height: 350px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.div-envio{
+ padding-left: 20px;
+ padding-top: 20px;
+}
+
+.letras-rojas{
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.letras-blancas{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.contenedorMain-2{
+    background-color:#FFFFFF;
+    width: 491px;
+    height: 350px;
+    margin-top: 35px;
+    margin-bottom: 35px;  
+}
+
+.Podio{
+    text-align: center;
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 26px;
+}
+
+.Top5{
+    font-size: 20px;
+    font-weight: 700;
+    color:#222222;
+    padding-left: 69px;
+    padding-top: 58px;
+}
+
+.lista-ordenada{
+   
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    padding-top: 20px;
+    padding-left: 51px;
+    align-self: center;
+    justify-items: flex-start;
+}
+
+.lista-ordenada li{
+    padding-top: 10px;
+}
+
+.plato{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 150px;
+    right: 74px;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.lista-desordenada{
+    
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lista-desordenada ul{
+    list-style: none;
+}
+
+.lista-desordenada ul li{
+    padding-top: 12px;
+}
+
+.imagenes-footer{
+    align-self: center;
+    justify-content: flex-end;
+    padding-right: 42px;
+    padding-top: 47.1px;
+    padding-bottom: 45.3px;
+}
+
