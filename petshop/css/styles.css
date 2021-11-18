@@ -217,6 +217,37 @@ list-style: none;
     
 }
 
+::placeholder{
+    color: #FFFFFF;
+    padding-left: 14.11px;
+    font-size: 9px;
+    font-weight:400;
+}
 
+.boton-resetear{
+    background-color: #8A8787;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 22px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.boton-enviar{
+
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 32px;
+    padding-right: 34px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+
+}
 
 
