@@ -204,6 +204,7 @@ list-style: none;
 .contenedor-formulario{
 
     text-align: center;
+    margin-bottom: 75px;
     
     
     
@@ -214,6 +215,7 @@ list-style: none;
     border-radius: 12px;
     width: 340px;
     height: 40px;
+    
     
 }
 
@@ -250,4 +252,131 @@ list-style: none;
 
 }
 
+
+.footer-amarilo{
+    display: flex;
+    background-color: #F0A83E;
+    padding-bottom: 17px;
+    padding-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.footer-amarilo span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.formulario-footer ::placeholder{
+    color:#A0A0A0 ;
+    padding-top: 14px;
+    padding-bottom: 45px;
+    padding-left: 8px;
+}
+
+.amarillo-izquierda{
+    padding-left: 25px;
+}
+
+.amarillo-derecha{
+    display: flex;
+    margin-right: 47px;
+    align-items: center;
+    
+}
+
+.formulario-footer{
+    margin-right: 8px;
+}
+
+.formulario-footer input{
+    font-size: 9px;
+    border-radius: 10px;
+    border:none;  
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 148px;
+      
+}
+
+.BotonSuscribirse{
+    
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-size: 9px;
+    border-radius: 16px;
+    border: none;
+    padding-left: 11px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    
+}
+
+.footer-brown{
+    display: flex;
+    background-color: #3C2313;
+    justify-content: space-between;
+}
+
+.Contenedor-Iconos {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor-textos{
+    margin-left: 25px;
+}
+
+.texto-localidad{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.texto-calle{
+    color:#8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Contenedor-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer{
+    padding-right:70px ;
+}
+
+.textoCat-Footer{
+    color: #F0A83E;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.textoFront-Footer{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.footer-negro{
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.footer-negro span{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 
