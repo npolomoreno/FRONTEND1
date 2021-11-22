@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-size: 10px;
+}
+
+.yellow-header{
+    background-color: #D1891C;
+    color: #333333;
+    padding-left: 6.7rem;
+    font-size: 1.5rem;
+}
+
+.blue-header{
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding-left: 6.7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.main-container{
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.batman-container{
+    margin-top: 5rem;
+    width: 30rem;
+    background-color: #F3F3F3;
+    border-radius: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.portada1{
+    background-image: url(/img/portada-batman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19.3rem;
+    
+}
+
+.portada2{
+    background-image: url(/img/portada-wwoman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19.3rem;
+    
+}
+
+.portada3{
+    background-image: url(/img/portada-superman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19.3rem;
+
+}
+
+.portada4{
+    background-image: url(/img/portada-Harley.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19.3rem;
+
+}
+
+.fas{
+    color: red;
+
+}
+
+.profile{
+    position: relative;
+    top: 12rem;
+    left: 8rem;
+    border-radius: 50%;
+    height: 11.8rem;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+.content-container{
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #333333;
+    font-size: 1.2rem;
+    
+}
+
+.boton-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.boton-container button{
+    background-color: #00669F;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 0.2rem;
+    margin-bottom: 2rem;
+    color: #F3F3F3;
+
+}
+
+.wwoman-container{
+    width: 30rem;
+
+    background-color: blue;
+}
+
+.superman-container{
+    width: 30rem;
+
+    background-color: chartreuse;
+}
+
+.harley-container{
+    width: 30rem;
+
+    background-color: cornflowerblue;
+}
+
+.footer-container{
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container span{
+    color: #FFF9F9;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    
+}
+
+.icono-github{
+    height: 2rem;
+    align-self: center;
+    
+}
+
+/*  No usé media queries porque usé flex wrap*/
+
+
+
+
+
+
+
+
