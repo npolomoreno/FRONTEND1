@@ -1,0 +1,440 @@
+
+*{
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 0;
+    margin: 0;  
+    
+}
+
+
+
+/*  HEADER'S STYLES*/
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6.5rem;
+}
+
+.nav-header ul li {
+    display: inline-block;
+    list-style: none;  
+    padding-right: 2.8rem;  
+}
+
+.nav-header ul li a{
+text-decoration: none;
+font-size: 1.3rem;
+font-weight: 500;
+}
+
+.button-header{
+    text-decoration: none;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-size: 1.318rem;
+    font-weight: 500;
+    padding: 1.2rem 3.03rem;
+    border-radius: 2rem;
+
+  
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.32); 
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.32);
+
+}
+
+.menu-hamburguesa{
+    display: none;
+}
+
+/*  MAIN'S STYLES*/
+
+    /*First section*/
+
+.firstSection-main{
+    margin-top: 10rem;
+    display: flex;
+    justify-content:space-around;
+}
+.Description-container{
+    width: 43.9rem;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 5.8rem;
+    color: #232C50;
+    padding-bottom: 2.8rem;
+}
+
+.pDescription{
+    font-size: 1.656rem;
+    font-weight: 500;
+    padding-bottom: 2.8rem;
+}
+
+.img-container{
+    width: 54.0rem;
+}
+
+
+    /*second section*/
+
+.SecondSection-main{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.leftContainer{
+    width: 43.7rem;
+}
+
+.h2text{
+    font-size: 3.4rem;
+    color: #232851;
+    font-weight: 700;
+    padding-bottom: 3.6rem;
+}
+
+.ptext-left{
+    font-size: 1.6rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.rightContainer{
+    display: flex;
+    width: 54rem;
+    
+}
+
+.rightContainer ul{
+    list-style: none;
+}
+
+.n1::before{
+    content: "1";
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    position: relative;
+    right: 8rem;
+    top: 2rem;
+}
+
+.n2::before{
+    content: "2";
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    position: relative;
+    right: 8rem;
+    top: 2rem;
+
+}
+
+.n3::before{
+    content: "3";
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    padding: 1rem 2.5rem;
+    position: relative;
+    right: 8rem;
+    top: 2rem;
+
+}
+
+
+
+.rightContainer-text h5{
+    color: #323851;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-bottom: 1.8rem;
+}
+
+.rightContainer-text p{
+    color: #B3B2B7;
+    font-weight: 500;
+    font-size: 1.63rem;
+}
+
+    /*THIRD SECTION*/
+
+.h2ThirdSection{
+    color: #242E53;
+    font-size: 3.921rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+    /*FOURTH SECTION*/
+
+.fourthSection{
+    margin-top: 10rem;
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.card1{
+    
+    width: 40.3rem;
+}
+
+.card1 img{
+    position: relative;
+    left: 15.25rem;
+    bottom: 3.5rem;
+    width: 7rem;
+}
+
+.card1 span{
+    display: inline-block;
+    color: #3F4868;
+    font-size: 1.607rem;
+    font-weight: 700;
+    position: relative;
+    left: 7rem;
+    padding-bottom: 1.5rem;
+}
+
+.card1 p{
+    
+    color: #B9B9C1;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-right: 1.5rem;
+}
+
+    /*FIFTH SECTION*/
+
+.fifth-section{
+    margin-top: 4.5rem;
+    margin-bottom: 18.0rem;
+    text-align: center;
+}
+
+.button-main{
+    text-decoration: none;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-size: 1.318rem;
+    font-weight: 500;
+    padding: 1.2rem 3.03rem;
+    border-radius: 2rem;
+
+  
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.32); 
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.32);
+
+}
+
+
+.carrusel{
+    display: none;
+}
+
+/* ----- FOOTER STYLES -------*/
+
+.footerSection1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F3613C;
+}
+
+.footerSection1 h2{
+    width: 43.8rem;
+    color: #FFFFFF;
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.button-footer{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #F3603B;
+    font-size: 1.318rem;
+    font-weight: 500;
+    padding: 1.2rem 3.03rem;
+    border-radius: 2rem;
+
+  
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.32); 
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.32);
+
+}
+
+.footerSection2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E26;
+}
+
+.footer-container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+    
+}
+
+
+.logo-footer{
+    padding-bottom: 5rem;
+}
+.socialN-icons{
+    padding-right: 1rem;
+}
+
+.footer-container{
+    display: flex;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+
+.menu-footer li{
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.menu-footer li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.infoUser-footer{
+    padding-bottom: 5rem;
+}
+
+.inputFooter{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 4.8rem;
+    border-radius: 2rem;
+}
+
+input::placeholder{
+    color: #A0A0A0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.button-go{
+
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    background-color: #F3603B;
+    margin-left: 1rem;
+
+}
+
+.copyr{
+    margin-top: 5rem;
+    color: #8C8C94;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/*++++++ MEDIA QUERIES (mobile version) +++++*/
+
+@media (max-width:400px){
+
+    .header-container{
+        
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .button-header{
+        display: none;
+    }
+
+    .menu-hamburguesa{
+        display: flex;
+    }
+
+    .firstSection-main{
+        flex-direction: column-reverse;
+    }
+
+    .SecondSection-main{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .rightContainer{
+        display: flex;
+        width: 40rem;
+        
+        
+    }
+
+    .cardsmobile{
+        display: none;
+
+    }
+
+    .carrusel{
+        display: block;
+        margin-bottom: 2rem;
+    }
+    .fas{
+        color:rgb(165, 180, 180);
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+    .footerSection1{
+        flex-direction: column;
+    }
+
+    .footerSection2{
+        flex-direction: column-reverse;
+    }
+
+    .responsive-block{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+}
